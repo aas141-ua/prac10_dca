@@ -1,7 +1,7 @@
 class Taxi:
     def __init__(self, ID):
         self.ID = ID
-        self.estado = "STOP"
+        self.estado = "EN RUTA"  # Cambiado de "STOP" a "EN RUTA"
         self.pos = "1,1"
         self.autenticado = False
         self.ocupado = False
