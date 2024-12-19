@@ -104,3 +104,11 @@ Aida Argente Sanchis, 20495676P
         fi
     3. Se le dan permisos al hook:
         · Comando: chmod +x .git/hooks/commit-msg
+    4. Si pruebo a añadir un commit vacío me sale el siguiente error:
+        · Subir a git el 'readme.txt': git add readme.txt
+        · Commit vacío: git commit -m ""
+            · Respuesta de la terminal: Aborting commit due to empty commit message.
+        · Commit no vacío: git commit -m "Mensaje de commit válido"
+            · Respuesta de la terminal: [main 49772b9] Mensaje de commit válido
+                                        1 file changed, 106 insertions(+)
+                                        create mode 100644 readme.txt
