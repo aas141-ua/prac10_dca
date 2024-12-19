@@ -5,6 +5,9 @@ class Taxi:
         self.pos = "1,1"
         self.autenticado = False
         self.ocupado = False
+    
+    def cambiar_posicion(self, nueva_pos):
+        self.pos = nueva_pos
 
     def __str__(self):
         return (f"Taxi {self.ID}:\n"
