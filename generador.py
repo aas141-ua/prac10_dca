@@ -8,6 +8,9 @@ class Taxi:
     
     def cambiar_posicion(self, nueva_pos):
         self.pos = nueva_pos
+    
+    def autenticar(self):
+        self.autenticado = True
 
     def __str__(self):
         return (f"Taxi {self.ID}:\n"
