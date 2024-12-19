@@ -45,4 +45,3 @@ if __name__ == "__main__":
         except ValueError:
             print("Por favor, introduce un número válido.")
     generar_taxis(num_taxis)
-print('Este es un fallo')
