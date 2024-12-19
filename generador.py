@@ -35,9 +35,14 @@ def generar_taxis(num_taxis):
 
 
 if __name__ == "__main__":
-    try:
-        num_taxis = int(input("Introduce el número de taxis: "))
-        generar_taxis(num_taxis)
-    except ValueError:
-        print("Por favor, introduce un número válido.")
+    while True:
+        try:
+            num_taxis = int(input("Introduce el número de taxis: "))
+            if num_taxis > 0:
+                break
+            else:
+                print("Por favor, introduce un número mayor a 0.")
+        except ValueError:
+            print("Por favor, introduce un número válido.")
+    generar_taxis(num_taxis)
 print('Este es un fallo')
