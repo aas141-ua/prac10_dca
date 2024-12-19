@@ -12,6 +12,9 @@ class Taxi:
     def autenticar(self):
         self.autenticado = True
 
+    def ocupar(self):
+        self.ocupado = True
+
     def __str__(self):
         return (f"Taxi {self.ID}:\n"
                 f"  Estado: {self.estado}\n"
