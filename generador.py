@@ -31,3 +31,4 @@ if __name__ == "__main__":
         generar_taxis(num_taxis)
     except ValueError:
         print("Por favor, introduce un número válido.")
+print('Este es un fallo')
